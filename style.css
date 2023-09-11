@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
 :root {
   --bright-orange: hsl(31, 77%, 52%);
   --dark-cyan: hsl(184, 100%, 22%);
@@ -10,6 +13,9 @@
 
   --fw-regular: 400;
   --fw-bold: 700;
+
+  --font-regular: "Big Shoulders Display";
+  --font-bold: "Lexend Deca";
 }
 
 *,
