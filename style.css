@@ -6,6 +6,9 @@
   --transparent-white: hsla(0, 0%, 100%, 0.75); /* paragraphs */
   --light-gray: hsl(0, 0%, 95%); /*background, headings, buttons*/
 
+  --f-regular: "Lexend Deca", sans-serif;
+  --f-bold: "Big Shoulders Display", cursive;
+
   --font-size: 15px;
 
   --fw-regular: 400;
@@ -18,4 +21,10 @@
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+}
+
+html {
+  font-family: var(--f-regular);
+  font-size: var(--font-size);
+  font-weight: var(--fw-regular);
 }
