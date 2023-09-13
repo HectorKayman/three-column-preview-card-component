@@ -32,4 +32,17 @@ html {
 body {
   height: 100vh;
   background: var(--light-gray);
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  display: flex;
+  max-width: 60%;
+  height: 70%;
+}
+
+.column {
+  height: 100%;
+  padding: 2rem;
 }
