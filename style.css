@@ -45,7 +45,7 @@ body {
 .column {
   height: 100%;
   display: grid;
-  gap: 3rem;
+  gap: 2rem;
   padding: 3rem;
   color: var(--transparent-white);
 }
@@ -82,4 +82,5 @@ body {
   border-radius: 2rem;
   border: none;
   cursor: pointer;
+  margin-top: 2rem;
 }
