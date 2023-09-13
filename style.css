@@ -85,6 +85,18 @@ body {
   margin-top: 3rem;
 }
 
+.orange {
+  color: var(--bright-orange);
+}
+
+.cyan {
+  color: var(--dark-cyan);
+}
+
+.teal {
+  color: var(--very-dark-cyan);
+}
+
 @media (max-width: 719px) {
   body {
     height: auto;
