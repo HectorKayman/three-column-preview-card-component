@@ -48,6 +48,18 @@ body {
   display: grid;
 }
 
+.left {
+  background: var(--bright-orange);
+}
+
+.middle {
+  background: var(--dark-cyan);
+}
+
+.right {
+  background: var(--very-dark-cyan);
+}
+
 .article {
   width: 14rem;
   line-height: 2rem;
