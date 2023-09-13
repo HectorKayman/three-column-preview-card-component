@@ -89,12 +89,30 @@ body {
   color: var(--bright-orange);
 }
 
+.orange:hover {
+  color: var(--light-gray);
+  background-color: var(--bright-orange);
+  border: 2px solid var(--light-gray);
+}
+
 .cyan {
   color: var(--dark-cyan);
 }
 
+.cyan:hover {
+  color: var(--light-gray);
+  background-color: var(--dark-cyan);
+  border: 2px solid var(--light-gray);
+}
+
 .teal {
   color: var(--very-dark-cyan);
+}
+
+.teal:hover {
+  color: var(--light-gray);
+  background-color: var(--very-dark-cyan);
+  border: 2px solid var(--light-gray);
 }
 
 @media (max-width: 719px) {
