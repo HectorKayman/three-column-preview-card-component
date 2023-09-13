@@ -39,11 +39,13 @@ body {
 .container {
   display: flex;
   /* height: 70%; */
+  overflow: hidden;
 }
 
 .column {
   height: 100%;
   display: grid;
+  gap: 3rem;
   padding: 3rem;
 }
 
