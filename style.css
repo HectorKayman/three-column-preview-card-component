@@ -28,3 +28,8 @@ html {
   font-size: var(--font-size);
   font-weight: var(--fw-regular);
 }
+
+body {
+  height: 100vh;
+  background: var(--light-gray);
+}
