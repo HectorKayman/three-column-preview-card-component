@@ -38,11 +38,16 @@ body {
 
 .container {
   display: flex;
-  max-width: 60%;
   height: 70%;
+  gap: 3rem;
+  padding: 3rem;
 }
 
 .column {
   height: 100%;
-  padding: 2rem;
+}
+
+.article {
+  width: 14rem;
+  line-height: 2rem;
 }
