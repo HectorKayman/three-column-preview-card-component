@@ -38,8 +38,8 @@ body {
 
 .container {
   display: flex;
-  /* height: 70%; */
   overflow: hidden;
+  border-radius: 1rem;
 }
 
 .column {
